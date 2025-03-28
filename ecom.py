@@ -9,7 +9,7 @@ def main():
     st.title("This is a app for ecom i am creating")
     st.sidebar.title("you can upload your file here")
 
-pload_file = st.sidebar.file_uploader("Upload Excel file", type=['xlsx'])
+upload_file = st.sidebar.file_uploader("Upload Excel file", type=['xlsx'])
 
 if upload_file is not None:
     try:
